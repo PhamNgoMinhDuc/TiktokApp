@@ -1,0 +1,29 @@
+@import "variables";
+body {
+    line-height: 1;
+    color: $black-color;
+    font-weight: 400;
+    background-color: $while-color;
+}
+
+.wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.mt {
+    margin-top: 90px;
+}
+
+.row {
+    display: flex;
+}
+
+.active {
+    color: #fe2c55 !important;
+}
